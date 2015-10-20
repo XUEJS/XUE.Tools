@@ -1,10 +1,10 @@
 {
   "name": "xue-tools",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "xuejs构建工具",
   "main": "index.js",
   "bin": {
-    "foo": "xue.js"
+    "xue": "bin/xue.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,6 @@
     "fis3": "^3.0.6",
     "fis3-hook-module": "^1.1.1",
     "liftoff": "^2.1.0",
-    "minimist": "^1.1.1",
-    "fis3-parser-sass": "^0.0.1",
+    "minimist": "^1.1.1"
   }
 }
