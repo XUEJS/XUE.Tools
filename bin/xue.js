@@ -19,13 +19,13 @@ cli.launch({
   cwd: argv.r || argv.root,
   configPath: argv.f || argv.file
 }, function(env) {
-  var fis;
+  var xue;
   if (!env.modulePath) {
-    fis = require('../');
+    xue = require('../');
   } else {
-    fis = require(env.modulePath);
+    xue = require(env.modulePath);
   }
-  fis.set('system.localNPMFolder', path.join(env.cwd, 'node_modules/xue'));
-  fis.set('system.globalNPMFolder', path.dirname(__dirname));
-  fis.cli.run(argv, env);
+  xue.set('system.localNPMFolder', path.join(env.cwd, 'node_modules/xue'));
+  xue.set('system.globalNPMFolder', path.dirname(__dirname));
+  xue.cli.run(argv, env);
 });

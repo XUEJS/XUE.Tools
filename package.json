@@ -1,6 +1,6 @@
 {
   "name": "xue-tools",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "description": "xuejs构建工具",
   "main": "index.js",
   "bin": {
@@ -16,6 +16,7 @@
     "fis3": "^3.0.6",
     "fis3-hook-module": "^1.1.1",
     "liftoff": "^2.1.0",
+    "commander": "2.9.0",
     "minimist": "^1.1.1"
   }
 }
